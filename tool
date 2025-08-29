@@ -185,3 +185,6 @@ while True:
     elif choice == '16':        
         message1(delrobloxvng)
         message1("Đã xoá set Roblox VNG!")
+    elif choice == '0':
+        message("Thoát chương trình.")
+        break
