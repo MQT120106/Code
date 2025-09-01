@@ -205,7 +205,7 @@ while True:
         message1(delrobloxvng)
         message1("Đã xoá set Roblox VNG!")
         sleep(4)
-    elif choice == '17'
+    elif choice == '17':
         message1("adb shell settings put global game_mode_force_on_pkg com.dts.freefireth")
         message1("Đã set Free Fire!")
         sleep(4)
