@@ -30,16 +30,7 @@ adb shell settings put global transition_animation_scale 0
 adb shell settings put global animator_duration_scale 0
 """
 
-internet = """adb shell settings put global private_dns_mode hostname
-adb shell settings put global private_dns_specifier 1dot1dot1dot1.cloudflare-dns.com
-adb shell settings put global restrict_background_network 0
-adb shell settings put global network_switch_notification_daily_limit 0
-adb shell settings put global wifi_watchdog_on 0
-adb shell sysctl -w net.ipv4.tcp_congestion_control=bbr
-adb shell svc wifi disable
-adb shell svc wifi enable
-adb shell svc data disable
-adb shell svc data enable
+internet = """
 """
 
 gamedefault = """adb shell settings put global window_animation_scale 0
