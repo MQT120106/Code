@@ -213,7 +213,7 @@ while True:
         sleep(4)
     elif choice == '4':
         reduce_resolution()
-        sleep(4)
+        sleep(8)
     elif choice == '5':
         message1("adb shell wm size reset")
         message1("adb shell wm density reset")
