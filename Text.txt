@@ -1,1 +1,2 @@
-
+<h2>Thông báo</h2>
+<p>Bản mới đã cập nhật</p>
